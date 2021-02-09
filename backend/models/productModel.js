@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-import ProductScreen from '../../frontend/src/screens/ProductScreen'
 
 const reviewSchema = mongoose.Schema({
     name: {
@@ -71,4 +70,4 @@ const productSchema = mongoose.Schema({
 
 const Product = mongoose.model('Product',productSchema)
 
-export default {Product}
+export default Product

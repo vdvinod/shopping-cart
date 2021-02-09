@@ -9,7 +9,7 @@ const users = [
     {
         name: 'John Doe',
         email: 'John:@example.com',
-        password: xbcrypt.hashSync('123456', 10),
+        password: bcrypt.hashSync('123456', 10),
         isAdmin: true
     },
     {
